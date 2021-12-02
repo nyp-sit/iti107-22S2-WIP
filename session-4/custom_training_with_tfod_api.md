@@ -118,7 +118,7 @@ rm -rf balloon_dataset
 
 *Note:* In linux, the tilde sign `~` is just a shorthand for home folder, i.e. /home/ubuntu in our case.
 
-[LabelImg](https://github.com/tzutalin/labelImg). Refer to ``annotation.md`` for instructions on how to use it.
+If you want to annotate your own images, you can use some existing tools like LabelImg, LabelStudio, CVAT, etc. Please refer to [``annotation.md``](annotation.md) for instructions on how to use LabelImg.
 
 ## Create Label Map
 
