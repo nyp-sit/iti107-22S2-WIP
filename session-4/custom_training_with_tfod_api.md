@@ -18,9 +18,9 @@ Tensorflow Object Detection (TFOD) API should already been installed if you are 
 
 - Some familiarity with Linux shell command is helpful for this lab.
 
-- The commands below assumed you are using Bash shell on Linux. 
+- The commands below are based on Bash shell on Linux. 
 
-- The referenced paths and the instructions assumes environment of provisioned cloud GPU server or docker image.  
+- The referenced paths and the instructions assume you use the environment of provisioned cloud GPU server or docker image.  
 
 - ``lab folder`` in the instructions below refers to the folder where this practical is located (e.g., `/home/ubuntu/git/iti107/session-4`).  You will need to clone the git repo first:
 
@@ -50,9 +50,12 @@ balloon_project
  -ssd_mobilenet_v2_320x320_coco17_tpu-8/run1
  -ssd_mobilenet_v2_320x320_coco17_tpu-8/run2
  -ssd_resnet101_v1_fpn_640x640_coco17_tpu-8/run1
+ - ....
 -pretrained_models
  -ssd_mobilenet_v2_320x320_coco17_tpu-8
  -ssd_resnet101_v1_fpn_640x640_coco17_tpu-8
+ -ssd_resnet101_v1_fpn_640x640_coco17_tpu-8
+ - ...
 ```
 
 The folders will be used for storing the files mentioned below:
